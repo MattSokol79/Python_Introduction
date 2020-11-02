@@ -1,6 +1,6 @@
 # Python 
 ## Pycharm setup
-### python 3.7
+### Python 3.7
 ### Python Variable
 
 **Objectives**

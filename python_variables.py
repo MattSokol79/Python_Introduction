@@ -28,4 +28,3 @@ name1 = str(input("Please enter your name "))
 # Getting user data by using input() method
 print(name1)
 
-
