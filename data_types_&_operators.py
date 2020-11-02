@@ -14,3 +14,9 @@ print(greetings.isalpha())
 # How to check if the string is lower case?
 print(greetings.islower())
 
+print(greetings.startswith("H"))
+
+print(greetings.endswith("!"))
+
+# None
+print(bool(None))
