@@ -61,12 +61,15 @@ print(sparta_user_details)
 del sparta_user_details["dob"]
 
 print(sparta_user_details)
+
 # Adding in 'height' to the dict
 sparta_user_details['height'] = 184
 print(sparta_user_details)
+
 # for loop cycles through the values and fetches their types()
 for i, j in sparta_user_details.items():
     print(type(j))
+
 # Printing out the hobbies list in reverse
 print(sparta_user_details['hobbies'][::-1])
 print(sparta_user_details)
