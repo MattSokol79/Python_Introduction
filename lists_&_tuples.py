@@ -1,6 +1,6 @@
 # Collection in Python
 # Lists
-# Lists are MUTABLE -
+# Lists are MUTABLE - CAN BE CHANGED - key difference between lists and tuples
 # We can add, remove and change an item in the list
 # Indexing starts with 0
 # So below: yoghurt is at index 0, apple is at 1 etc etc.
@@ -41,8 +41,6 @@ shopping_list_mixed = [1, 2, 3, 'apple', 'milk', 'bread']
 print(shopping_list_mixed)
 
 
-
-
 # TASK - Create a mixed data type list of 7 items
 # Display the type of the data
 # Add, delete, replace, pop
@@ -64,12 +62,32 @@ print(mixed_data)
 
 # Replace 'Olympiad' with 'Competition'
 mixed_data[1] = 'Competition'
+print(mixed_data)
 
-# Pop the last item i.e. 'Australia' and store it in a variable popped_item
+# Pop the last item i.e. 'Maths' and store it in a variable - popped_item
 popped_item = mixed_data.pop()
 print(mixed_data)
 print(popped_item)
 
 # Print list in reverse order
-mixed_data.reverse()
+mixed_data.reverse() # Or can do print(mixed_data[::-1])
 print(mixed_data)
+
+
+# Tuples
+# Tuples are IMMUTABLE - CAN'T BE CHANGED
+# Examples of data that NEVER changes: NI number, DOB, Place of Birth
+# Syntax: we use () to declare a Tuple
+
+tuple_list = ('paracetamol', 'eggs', 'supermalt')
+print(tuple_list)
+print(type(tuple_list))
+# Cannot add, remove etc etc as this is a tuple
+# Changing a tuple to list, changing data and changing back to tuple is
+# possible but is a little complicated, and wont be covered in much detail
+
+# Print items in the tuple separately
+for i in tuple_list:
+    print(i)
+# Can also index tuples as with lists so print(tuple_list[0]) to get the
+# first item etc etc.
