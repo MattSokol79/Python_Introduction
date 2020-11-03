@@ -56,19 +56,18 @@ sparta_user_details = {
     'grades' : ['A', 'A', 'A'],
     'hobbies' : ['running', 'reading', 'hunting']
 }
-# Deleting dob from the dict
-print(sparta_user_details)
-del sparta_user_details["dob"]
 
-print(sparta_user_details)
+# for loop cycles through the values and fetches their types()
+for i, j in sparta_user_details.items():
+    print(type(j))
 
 # Adding in 'height' to the dict
 sparta_user_details['height'] = 184
 print(sparta_user_details)
 
-# for loop cycles through the values and fetches their types()
-for i, j in sparta_user_details.items():
-    print(type(j))
+# Deleting dob from the dict
+del sparta_user_details["dob"]
+print(sparta_user_details)
 
 # Printing out the hobbies list in reverse
 print(sparta_user_details['hobbies'][::-1])
