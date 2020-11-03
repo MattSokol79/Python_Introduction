@@ -53,7 +53,7 @@ sparta_user_details = {
     'dob' : '22/10/1997',
     'address' : '74 Privet Drive',
     'course' : 'DevOps',
-    'grades' : ['A', 'A', 'A'],
+    'grades' : ['A*', 'A', 'A'],
     'hobbies' : ['running', 'reading', 'hunting']
 }
 
@@ -71,4 +71,9 @@ print(sparta_user_details)
 
 # Printing out the hobbies list in reverse
 print(sparta_user_details['hobbies'][::-1])
+print(sparta_user_details)
+
+# To add a value into the list of hobbies ----->
+sparta_user_details['hobbies'].append('swimming')
+sparta_user_details['hobbies'].remove('hunting') # Remove hunting from the list
 print(sparta_user_details)
