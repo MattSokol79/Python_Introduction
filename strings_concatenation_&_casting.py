@@ -6,7 +6,7 @@ number = "777"
 age = 18
 # We want to make this look presentable and in 1 line
 
-# print(first_name +" "+ last_name +" "+ age)
+# print(first_name + last_name +" "+ age)
 # Age cannot be added onto the names as you cant add a str to an int
 
 # ALTERNATIVE METHOD: Comma inputs a space between 2 variables
@@ -95,3 +95,5 @@ print(example_text.upper())
 
 # Change everything to lower case
 print(example_text.lower())
+
+
